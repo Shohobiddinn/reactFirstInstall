@@ -1,0 +1,10 @@
+{
+  "name": "reactinstall",
+  "private": "true",
+  "scripts": {
+    "start": "vite"
+  },
+  "devDependencies": {
+    "vite": "^5.0.10"
+  }
+}
