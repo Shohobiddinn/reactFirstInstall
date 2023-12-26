@@ -1,10 +1,13 @@
+import { Dashboard } from "./Dashboard";
+
+
 export const App = () => {
+const data = {
+    username :"Ali",
+    password:Number(123)
+}
     return (
         <>
-            <h1> Vite !!!</h1 >
-            <input type="text" /> 
-            <div>
-                <input type="file" accept="image/*, video/*" />
-            </div>
+            <Dashboard title={data} ></Dashboard>
         </>);
 }
