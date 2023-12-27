@@ -2,7 +2,7 @@
   "name": "reactinstall",
   "private": "true",
   "scripts": {
-    "start": "vite"
+    "dev": "vite"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
